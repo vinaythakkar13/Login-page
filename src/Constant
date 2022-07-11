@@ -1,0 +1,10 @@
+const Constant = {
+    REGEX: {
+        /* eslint-disable no-useless-escape */
+        SPECIALCHARACTERS: /[!@#\$%\^\&*\)\(+=._-]/g,
+        NUMBER: /[0-9]/,
+        LOWERCASEUPPERCASE: /[a-z].*[A-Z]|[A-Z].*[a-z]/,
+    },
+
+};
+export default Constant;
